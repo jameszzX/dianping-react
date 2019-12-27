@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import './style.css'
+import React, { Component } from "react";
+import "./style.css"
 
 class LikeItem extends Component {
   render() {
@@ -11,9 +11,9 @@ class LikeItem extends Component {
       currentPrice,
       oldPrice,
       saleDesc
-    } = this.props.data
+    } = this.props.data;
     return (
-      <a className="likeItem" href="https:www.superjames.top">
+      <a className="likeItem" href="https://superjames.top">
         <div className="likeItem__picContainer">
           <div className="likeItem__picTag">{tag}</div>
           <img alt={product} className="likeItem__pic" src={picture} />
@@ -30,8 +30,8 @@ class LikeItem extends Component {
           </div>
         </div>
       </a>
-    )
+    );
   }
 }
 
-export default LikeItem
+export default LikeItem;

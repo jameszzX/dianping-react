@@ -90,7 +90,7 @@ class LikeList extends Component {
         {loadTimes < 3 ? (
           <Loading />
         ) : (
-          <a href="https:www.superjames.top" className="likeList__viewAll">查看更多</a>
+          <a href="https://www.superjames.top" className="likeList__viewAll">查看更多</a>
         )}
       </div>
     )

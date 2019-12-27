@@ -70,7 +70,7 @@
 }
 
 .likeItem__currentPrice::before {
-  content: '\A5';
+  content: "\A5";
   font-size: 14px;
   margin-right: 2px;
   vertical-align: 1px;
@@ -85,7 +85,7 @@
 }
 
 .likeItem__oldPrice::before {
-  content: '\A5';
+  content: "\A5";
   margin-right: 1px;
 }
 
